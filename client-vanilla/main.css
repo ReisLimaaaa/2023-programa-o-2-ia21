@@ -5,16 +5,16 @@ main,header {
 
 header {
     display: flex;    
-    border: 1px solid black;
+    border: 1px solid #000000;
 }
 
 header input {
     flex-grow: 1;
     border: none;
-    border-right: 1px solid black;
+    border-right: 1px solid #000000;
 }
 
-header button {
+header button { 
     border: none;
 }
 
@@ -25,4 +25,12 @@ main div.container {
 main div.container span {
     display: inline-block;
     flex-grow: 1;
+}
+
+button {
+ border: 1px solid #000000;   
+}
+
+:focus {
+    background-color: #7fffd4;
 }
